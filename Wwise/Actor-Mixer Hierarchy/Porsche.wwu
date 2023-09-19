@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDC5DC9B-E3F7-478A-9004-7689637495B8}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Porsche" ID="{EDC5DC9B-E3F7-478A-9004-7689637495B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Porsche" ID="{569C3D15-F47A-4CF1-9286-12041CDB8A10}" ShortID="718050829">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+						</Reference>
+					</ReferenceList>
+					<GroupingInfo/>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
