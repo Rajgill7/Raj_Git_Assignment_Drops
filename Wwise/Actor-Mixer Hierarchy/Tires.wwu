@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDC5DC9B-E3F7-478A-9004-7689637495B8}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Tires" ID="{EDC5DC9B-E3F7-478A-9004-7689637495B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Surfaces" ID="{569C3D15-F47A-4CF1-9286-12041CDB8A10}" ShortID="718050829">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Asphalt" ID="{1ABD7192-FD46-4C77-BB84-1C1312754A1B}" WorkUnitID="{81C75F17-2936-4EAB-9A4E-D943D6945C51}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Terrain" ID="{86E4841D-CD75-4526-823C-42D85E767D2F}" WorkUnitID="{81C75F17-2936-4EAB-9A4E-D943D6945C51}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Gravel" ID="{E4F67CF1-F701-427B-B6EE-6F5F07245624}" ShortID="462372453">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Pass By, Winter Tires, Gravel SND5227 2" ID="{04D18F67-B5B4-4599-A6C2-1E55ADF002F0}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Pass By, Winter Tires, Gravel SND5227 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201580320"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Pass By, Winter Tires, Gravel SND5227 2" ID="{04D18F67-B5B4-4599-A6C2-1E55ADF002F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Asphalt" ID="{EC0C83BC-2EA6-4106-8533-492C633A5ABD}" ShortID="247425814">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{09E1AFD1-588D-458A-ADDF-9385BA262470}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="497664860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Asphalt, Fast Speed To Stop SND10822" ID="{09E1AFD1-588D-458A-ADDF-9385BA262470}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dirt" ID="{F451FA06-8C52-47E1-8D66-565467420A51}" ShortID="700196744">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Dirt, Various Speed SND10819" ID="{0877A2FA-CFA9-4D75-A02C-CFE8A17311B0}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Asphalt, Dirt, Various Speed SND10819.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145563043"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Dirt, Various Speed SND10819" ID="{0877A2FA-CFA9-4D75-A02C-CFE8A17311B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wet" ID="{3A890FD0-79ED-44FB-82D4-F9D0CD757E17}" ShortID="993274220">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EF6D8CA9-1CE8-4491-86B8-308F6051659F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C2C0C756-0DF0-40DF-99D0-C5154C3AEE43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{0FA38202-2CD6-4315-B8EB-9F24581C0FBB}">
+									<Language>SFX</Language>
+									<AudioFile>Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584639466"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Gravel, Dirt, Wet, Various Speed, Bumps, Stop SND10824" ID="{0FA38202-2CD6-4315-B8EB-9F24581C0FBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Dirt" ID="{F451FA06-8C52-47E1-8D66-565467420A51}"/>
+								<PropertyList>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Asphalt" ID="{EC0C83BC-2EA6-4106-8533-492C633A5ABD}"/>
+								<PropertyList>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Wet" ID="{3A890FD0-79ED-44FB-82D4-F9D0CD757E17}"/>
+								<PropertyList>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gravel" ID="{E4F67CF1-F701-427B-B6EE-6F5F07245624}"/>
+								<PropertyList>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Wet" ID="{80F50945-8F69-474F-8EEC-DAFDB046407C}"/>
+								<ItemList>
+									<ItemRef Name="Wet" ID="{3A890FD0-79ED-44FB-82D4-F9D0CD757E17}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Asphalt" ID="{1ABD7192-FD46-4C77-BB84-1C1312754A1B}"/>
+								<ItemList>
+									<ItemRef Name="Asphalt" ID="{EC0C83BC-2EA6-4106-8533-492C633A5ABD}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{2E146C98-AFC4-46A5-BFC4-19D8B875258D}"/>
+								<ItemList>
+									<ItemRef Name="Gravel" ID="{E4F67CF1-F701-427B-B6EE-6F5F07245624}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dirt" ID="{8AC09CB0-29BB-4D96-A69F-36AD39EFE434}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{F451FA06-8C52-47E1-8D66-565467420A51}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
